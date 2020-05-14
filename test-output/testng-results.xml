@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testng testing basic" duration-ms="49426" started-at="2020-05-13T09:14:36Z" finished-at="2020-05-13T09:15:25Z">
+    <groups>
+    </groups>
+    <test name="firt test" duration-ms="49426" started-at="2020-05-13T09:14:36Z" finished-at="2020-05-13T09:15:25Z">
+      <class name="first.second">
+        <test-method status="PASS" signature="testParameterWithXML(java.lang.String, java.lang.String)[pri:0, instance:first.second@39c0f4a]" name="testParameterWithXML" duration-ms="49352" started-at="2020-05-13T09:14:36Z" finished-at="2020-05-13T09:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- first.second -->
+      <class name="first.first">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:first.first@7d9d1a19]" name="beforesuite" is-config="true" duration-ms="51" started-at="2020-05-13T09:14:36Z" finished-at="2020-05-13T09:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:first.first@7d9d1a19]" name="beforetest" is-config="true" duration-ms="2" started-at="2020-05-13T09:14:36Z" finished-at="2020-05-13T09:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:first.first@7d9d1a19]" name="beforeclass" is-config="true" duration-ms="1" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:first.first@7d9d1a19]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:first.first@7d9d1a19]" name="test1" duration-ms="3" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:first.first@7d9d1a19]" name="aftermethod" is-config="true" duration-ms="2" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:first.first@7d9d1a19]" name="beforemethod" is-config="true" duration-ms="0" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:first.first@7d9d1a19]" name="test2" duration-ms="2" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:first.first@7d9d1a19]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:first.first@7d9d1a19]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:first.first@7d9d1a19]" name="afterclass" is-config="true" duration-ms="0" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:first.first@7d9d1a19]" name="aftersuite" is-config="true" duration-ms="1" started-at="2020-05-13T09:15:25Z" finished-at="2020-05-13T09:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- first.first -->
+    </test> <!-- firt test -->
+  </suite> <!-- testng testing basic -->
+</testng-results>

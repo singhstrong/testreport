@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite  name="testng testing basic"
+	preserve-order="true" parallel="false">
+
+
+
+	<test name="firt test" preserve-order="true">
+	
+	<parameter name="url" value="https://www.google.com/" />
+<parameter name="searchKey" value="India" />
+		<classes>
+			<class name="first.second" />
+			<class name="first.first" />
+		</classes>
+	</test>
+
+
+</suite>
